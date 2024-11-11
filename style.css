@@ -1,0 +1,15 @@
+#hsbtn{
+    text-align: center;
+}
+.btns{
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: greenyellow;
+    color: grey;
+    border-radius: 10em;
+    transition: background-color 0.25s;
+}
+
+.btns:hover{
+    background-color: blue;
+}

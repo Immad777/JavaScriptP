@@ -1,0 +1,50 @@
+Notes
+
+1. to define an element use the term let
+to give an element an ID use the statment ID in the deifining part for example <p id = ID_NAME> text </p>
+To link a style or JS code to HTML main use <link rel = "stylesheet" href = .css_file_name> and for Java use <script src = "js.file.name"> </script>
+to assign a value made in the script file to a element in the HTML file use the id and the statment document.getElementbyId("ID_NAME") = value;
+
+/* 
+
+opertor bedmas 
+1. Parenthesis ()
+2. Exponents
+3. Multiplication & division & modulo
+4. additon & subtracation
+
+*/
+
+types of operation and styles inlcude 
+
+1. + - / * % **
+
+If you put the arthmitic before the = sign then put the value of the arthmitic after it's augmented as seen in the example below (arthmitic)
+variable (+)= 3 //This will add a value of 3 to the variable so is variable = 2 it will not be 5 
+
+variable++/-- is just regular increase/decrease of 1 
+
+How to make a submission input box
+
+To create a button in HTML call the button function <button id= button1></button>
+to label a text box call the label function type <label for = "textbox">Label_name</label>
+to create atext box with user input type input id = "Name for input" this will create a blank input box on the screen 
+create a empty variable to store the input from the user in this example the empty element is called user make this in the js file since it will work with the function
+
+How to make the button do something
+
+You can define the button a function to make it do something to start you need to call on the element in the JS file then giving it a onclick label
+
+document.getElementbyId("Button1").onclick() = function(){
+    //Whatever is written in here is what will happen when the button is clicked so for example we could make the button upddate some H1 text on the homepage called welcome_m
+
+    username = document.getElementbyId("Name").value;
+    document.getElementbyId("welcome_m").textcontext = username
+}
+
+
+cont works like final in Java after cost is used that variable can't be changed instead of let use const (Capitilization should be applied to primitve datatypes)
+
+class allows you to define actions and attributes and assign them just by linking that class to the exisiting variables in the HTML file 
+
+class use .classname in CSS whilst other attributes use #attributename in CSS
